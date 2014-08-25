@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 16, ../components/sass/_base.scss */
 a:link {
   text-decoration: none;
-  color: #991F1F; }
+  color: red; }
 /* line 20, ../components/sass/_base.scss */
 a:hover, a:active {
   text-decoration: underline; }
@@ -79,19 +79,19 @@ a:focus {
   outline: none; }
 /* line 26, ../components/sass/_base.scss */
 a:visited {
-  color: #873131; }
+  color: #e61919; }
 
-/* line 1, ../components/sass/_layout.scss */
+@media screen and (min-width: 761px) {
+  /* line 18, ../components/sass/_layout.scss */
+  section {
+    width: 1290px;
+    height: 480px;
+    background: url(../../images/working_1290_bw.jpg) no-repeat; } }
+/* line 25, ../components/sass/_layout.scss */
 body {
   width: 100%; }
 
-/* line 4, ../components/sass/_layout.scss */
+/* line 28, ../components/sass/_layout.scss */
 header {
   height: 105px;
   background: url(../../images/triangles.png) repeat; }
-
-/* line 8, ../components/sass/_layout.scss */
-section {
-  width: 1290px;
-  height: 480px;
-  background: url(../../images/working_1290_bw.jpg) no-repeat; }

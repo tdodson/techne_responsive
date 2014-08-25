@@ -1,12 +1,31 @@
+// Media Queries
+
+// phone or small device
+@media screen 
+and (max-width: $break_small) {
+
+}
+
+@media screen 
+and (min-width: $break_small +1)
+and (max-width: $break_medium) {
+
+}
+
+@media screen 
+and (min-width: $break_medium +1)
+/* and (max-width: $break_large) */ {
+	section {
+		width: 1290px;
+		height: 480px;
+		background: url(../../images/working_1290_bw.jpg) no-repeat;
+	}
+}
+
 body {
 	width: 100%;
 }
 header {
 	height: 105px;
 	background: url(../../images/triangles.png) repeat;
-}
-section {
-	width: 1290px;
-	height: 480px;
-	background: url(../../images/working_1290_bw.jpg) no-repeat;
 }
