@@ -63,21 +63,29 @@ body {
   line-height: 150%; }
 
 /* line 10, ../components/sass/_base.scss */
+em {
+  font-style: italic; }
+
+/* line 14, ../components/sass/_base.scss */
+i {
+  color: #1487d4; }
+
+/* line 18, ../components/sass/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 /* Link Styling */
-/* line 16, ../components/sass/_base.scss */
+/* line 24, ../components/sass/_base.scss */
 a:link {
   text-decoration: none;
   color: #1487d4; }
-/* line 20, ../components/sass/_base.scss */
+/* line 28, ../components/sass/_base.scss */
 a:hover, a:active {
   text-decoration: underline; }
-/* line 23, ../components/sass/_base.scss */
+/* line 31, ../components/sass/_base.scss */
 a:focus {
   outline: none; }
-/* line 26, ../components/sass/_base.scss */
+/* line 34, ../components/sass/_base.scss */
 a:visited {
   color: #2b82bd; }
 
@@ -92,7 +100,7 @@ header {
 
 /* line 11, ../components/sass/_layout.scss */
 hgroup#logo h1 {
-  padding: 17px 0 0 100px;
+  padding: 15px 0 0 95px;
   float: left; }
 /* line 15, ../components/sass/_layout.scss */
 hgroup#logo h2 {
@@ -102,27 +110,74 @@ hgroup#logo h2 {
   font: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 2.25rem; }
 
+/* line 25, ../components/sass/_layout.scss */
+nav a {
+  text-transform: uppercase;
+  text-align: center;
+  border: none; }
+  /* line 29, ../components/sass/_layout.scss */
+  nav a:link, nav a:visited {
+    color: #1069a5; }
+  /* line 32, ../components/sass/_layout.scss */
+  nav a:hover, nav a:active {
+    text-decoration: none;
+    color: #1487d4; }
+  /* line 36, ../components/sass/_layout.scss */
+  nav a i {
+    color: #333; }
+  /* line 39, ../components/sass/_layout.scss */
+  nav a .navtag {
+    color: #333; }
+
 @media screen and (min-width: 761px) and (max-width: 1280px) {
-  /* line 44, ../components/sass/_layout.scss */
+  /* line 64, ../components/sass/_layout.scss */
   section#banner {
     width: 1290px;
     height: 480px;
     background: url(../../images/working_1290_bw.jpg) no-repeat;
     position: relative; }
-    /* line 49, ../components/sass/_layout.scss */
+    /* line 69, ../components/sass/_layout.scss */
     section#banner #opacBlue {
-      width: 50%;
+      width: 33%;
       height: 480px;
       background: rgba(20, 135, 212, 0.8);
       position: absolute;
       top: 0;
       bottom: 0; }
-      /* line 56, ../components/sass/_layout.scss */
+      /* line 76, ../components/sass/_layout.scss */
       section#banner #opacBlue p {
-        padding: 0.5rem 4.25rem;
+        padding: 0.5rem 2rem;
         color: #FFF;
         font-size: 1.25rem;
         line-height: 125%; }
-        /* line 61, ../components/sass/_layout.scss */
+        /* line 81, ../components/sass/_layout.scss */
         section#banner #opacBlue p#first {
-          padding-top: 125px; } }
+          padding-top: 45px; }
+
+  /* line 87, ../components/sass/_layout.scss */
+  nav {
+    padding: 1.5rem 6.25rem;
+    overflow: hidden;
+    font-size: 1.45rem; }
+
+  /* line 92, ../components/sass/_layout.scss */
+  i {
+    padding-right: 0.45rem; }
+
+  /* line 95, ../components/sass/_layout.scss */
+  ul {
+    list-style: none; }
+    /* line 97, ../components/sass/_layout.scss */
+    ul a {
+      display: block; }
+    /* line 100, ../components/sass/_layout.scss */
+    ul li {
+      float: left;
+      padding-right: 5rem;
+      position: relative; }
+      /* line 104, ../components/sass/_layout.scss */
+      ul li .navtag {
+        display: block;
+        font-size: 1rem;
+        text-transform: lowercase;
+        text-align: center; } }

@@ -9,7 +9,7 @@ header {
 
 hgroup#logo {
 	h1 {
-		padding: 17px 0 0 100px;
+		padding: 15px 0 0 95px;
 		float: left;
 	}
 	h2 {
@@ -21,7 +21,27 @@ hgroup#logo {
 	}
 }
 
-
+nav { 
+	a {
+		text-transform: uppercase;
+		text-align: center;
+		border: none;
+		&:link, &:visited {
+			color: darken($baseBlue, 10%);
+		}
+		&:hover, &:active {
+			text-decoration:none;
+			color: $baseBlue;
+		}
+		i {
+			color: #333;
+		}
+		.navtag {
+			color: #333;
+		}
+	}
+	
+}
 
 // Media Queries
 
@@ -47,20 +67,45 @@ and (max-width: $break_huge) {
 		background: url(../../images/working_1290_bw.jpg) no-repeat;
 		position: relative;
 		#opacBlue {
-			width: 50%;
+			width: 33%;
 			height: 480px;
 			background: $opacBlue;
 			position: absolute;
 			top: 0;
 			bottom: 0;
 			p {
-				padding: 0.5rem 4.25rem;
+				padding: 0.5rem 2rem;
 				color: #FFF;
 				font-size: 1.25rem /* (26px / 16px) */;
 				line-height: 125%;
 				&#first {
-					padding-top: 125px;
+					padding-top: 45px;
 				}
+			}
+		}
+	}
+	nav {
+		padding: 1.5rem 6.25rem;
+		overflow: hidden;
+		font-size: 1.45rem;
+	}
+	i {
+		padding-right: 0.45rem;
+	}
+	ul {
+		list-style: none;
+		a {
+			display: block;
+		}
+		li {
+			float: left;
+			padding-right: 5rem;
+			position: relative;
+			.navtag {
+				display: block;
+				font-size: 1rem;
+				text-transform: lowercase;
+				text-align: center;
 			}
 		}
 	}

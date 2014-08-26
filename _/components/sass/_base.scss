@@ -7,6 +7,14 @@ body {
 	line-height: 150%
 }
 
+em {
+	font-style: italic;
+}
+
+i {
+	color: $baseBlue;
+}
+
 #{headings()} {
 	font-family: $font-sans;
 }
