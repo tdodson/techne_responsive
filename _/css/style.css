@@ -128,16 +128,18 @@ nav a {
     color: #333; }
   /* line 39, ../components/sass/_layout.scss */
   nav a .navtag {
+    display: none;
+    /* Tags only display in larger sizes */
     color: #333; }
 
 @media screen and (min-width: 1091px) and (max-width: 1280px) {
-  /* line 69, ../components/sass/_layout.scss */
+  /* line 70, ../components/sass/_layout.scss */
   section#banner {
     width: 1290px;
     height: 480px;
     background: url(../../images/working_1290_bw.jpg) no-repeat;
     position: relative; }
-    /* line 74, ../components/sass/_layout.scss */
+    /* line 75, ../components/sass/_layout.scss */
     section#banner #opacBlue {
       width: 33%;
       height: 480px;
@@ -145,38 +147,39 @@ nav a {
       position: absolute;
       top: 0;
       bottom: 0; }
-      /* line 81, ../components/sass/_layout.scss */
+      /* line 82, ../components/sass/_layout.scss */
       section#banner #opacBlue p {
         padding: 0.5rem 2rem;
         color: #FFF;
         font-size: 1.25rem;
+        text-shadow: 1px 1px 1px #333;
         line-height: 125%; }
-        /* line 86, ../components/sass/_layout.scss */
+        /* line 88, ../components/sass/_layout.scss */
         section#banner #opacBlue p#first {
           padding-top: 45px; }
 
-  /* line 92, ../components/sass/_layout.scss */
+  /* line 94, ../components/sass/_layout.scss */
   nav {
     padding: 1.5rem 6.25rem;
     overflow: hidden;
     font-size: 1.45rem; }
 
-  /* line 97, ../components/sass/_layout.scss */
+  /* line 99, ../components/sass/_layout.scss */
   i {
     padding-right: 0.45rem; }
 
-  /* line 100, ../components/sass/_layout.scss */
+  /* line 102, ../components/sass/_layout.scss */
   ul {
     list-style: none; }
-    /* line 102, ../components/sass/_layout.scss */
+    /* line 104, ../components/sass/_layout.scss */
     ul a {
       display: block; }
-    /* line 105, ../components/sass/_layout.scss */
+    /* line 107, ../components/sass/_layout.scss */
     ul li {
       float: left;
       padding-right: 5rem;
       position: relative; }
-      /* line 109, ../components/sass/_layout.scss */
+      /* line 111, ../components/sass/_layout.scss */
       ul li .navtag {
         display: block;
         font-size: 1rem;
