@@ -1,13 +1,11 @@
 // Global Styles
-body {
-	width: 100%;
-}
 header {
 	height: 105px;
 	background: url(../../images/triangles.png) repeat;
 }
 
 hgroup#logo {
+	width: 1280px;
 	h1 {
 		padding: 15px 0 0 95px;
 		float: left;
@@ -67,11 +65,15 @@ and (max-width: $break_large) {
 @media screen 
 and (min-width: $break_large +1)
 and (max-width: $break_huge) {
+	header {
+		width: 1280px;
+	}
 	section#banner {
-		width: 1290px;
+		width: 1280px;
 		height: 480px;
-		background: url(../../images/working_1290_bw.jpg) no-repeat;
+		background: url(../../images/working_1280_bw.jpg) no-repeat;
 		position: relative;
+		overflow: hidden;
 		#opacBlue {
 			width: 33%;
 			height: 480px;

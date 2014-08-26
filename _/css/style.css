@@ -59,87 +59,92 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* menu breaks at smaller than 1090 */
 /* line 4, ../components/sass/_base.scss */
 body {
+  width: 100%;
   font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
   line-height: 150%; }
 
-/* line 10, ../components/sass/_base.scss */
+/* line 11, ../components/sass/_base.scss */
 em {
   font-style: italic; }
 
-/* line 14, ../components/sass/_base.scss */
+/* line 15, ../components/sass/_base.scss */
 i {
   color: #1487d4; }
 
-/* line 18, ../components/sass/_base.scss */
+/* line 19, ../components/sass/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 /* Link Styling */
-/* line 24, ../components/sass/_base.scss */
+/* line 25, ../components/sass/_base.scss */
 a:link {
   text-decoration: none;
   color: #1487d4; }
-/* line 28, ../components/sass/_base.scss */
+/* line 29, ../components/sass/_base.scss */
 a:hover, a:active {
   text-decoration: underline; }
-/* line 31, ../components/sass/_base.scss */
+/* line 32, ../components/sass/_base.scss */
 a:focus {
   outline: none; }
-/* line 34, ../components/sass/_base.scss */
+/* line 35, ../components/sass/_base.scss */
 a:visited {
   color: #2b82bd; }
 
 /* line 2, ../components/sass/_layout.scss */
-body {
-  width: 100%; }
-
-/* line 5, ../components/sass/_layout.scss */
 header {
   height: 105px;
   background: url(../../images/triangles.png) repeat; }
 
-/* line 11, ../components/sass/_layout.scss */
-hgroup#logo h1 {
-  padding: 15px 0 0 95px;
-  float: left; }
-/* line 15, ../components/sass/_layout.scss */
-hgroup#logo h2 {
-  float: left;
-  padding: 40px 0 0 35px;
-  color: #FFF;
-  font: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 2.25rem; }
+/* line 7, ../components/sass/_layout.scss */
+hgroup#logo {
+  width: 1280px; }
+  /* line 9, ../components/sass/_layout.scss */
+  hgroup#logo h1 {
+    padding: 15px 0 0 95px;
+    float: left; }
+  /* line 13, ../components/sass/_layout.scss */
+  hgroup#logo h2 {
+    float: left;
+    padding: 40px 0 0 35px;
+    color: #FFF;
+    font: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 2.25rem; }
 
-/* line 25, ../components/sass/_layout.scss */
+/* line 23, ../components/sass/_layout.scss */
 nav a {
   text-transform: uppercase;
   text-align: center;
   border: none; }
-  /* line 29, ../components/sass/_layout.scss */
+  /* line 27, ../components/sass/_layout.scss */
   nav a:link, nav a:visited {
     color: #1069a5; }
-  /* line 32, ../components/sass/_layout.scss */
+  /* line 30, ../components/sass/_layout.scss */
   nav a:hover, nav a:active {
     text-decoration: none;
     color: #1487d4; }
-  /* line 36, ../components/sass/_layout.scss */
+  /* line 34, ../components/sass/_layout.scss */
   nav a i {
     color: #333; }
-  /* line 39, ../components/sass/_layout.scss */
+  /* line 37, ../components/sass/_layout.scss */
   nav a .navtag {
     display: none;
     /* Tags only display in larger sizes */
     color: #333; }
 
 @media screen and (min-width: 1091px) and (max-width: 1280px) {
-  /* line 70, ../components/sass/_layout.scss */
+  /* line 68, ../components/sass/_layout.scss */
+  header {
+    width: 1280px; }
+
+  /* line 71, ../components/sass/_layout.scss */
   section#banner {
-    width: 1290px;
+    width: 1280px;
     height: 480px;
-    background: url(../../images/working_1290_bw.jpg) no-repeat;
-    position: relative; }
-    /* line 75, ../components/sass/_layout.scss */
+    background: url(../../images/working_1280_bw.jpg) no-repeat;
+    position: relative;
+    overflow: hidden; }
+    /* line 77, ../components/sass/_layout.scss */
     section#banner #opacBlue {
       width: 33%;
       height: 480px;
@@ -147,39 +152,39 @@ nav a {
       position: absolute;
       top: 0;
       bottom: 0; }
-      /* line 82, ../components/sass/_layout.scss */
+      /* line 84, ../components/sass/_layout.scss */
       section#banner #opacBlue p {
         padding: 0.5rem 2rem;
         color: #FFF;
         font-size: 1.25rem;
         text-shadow: 1px 1px 1px #333;
         line-height: 125%; }
-        /* line 88, ../components/sass/_layout.scss */
+        /* line 90, ../components/sass/_layout.scss */
         section#banner #opacBlue p#first {
           padding-top: 45px; }
 
-  /* line 94, ../components/sass/_layout.scss */
+  /* line 96, ../components/sass/_layout.scss */
   nav {
     padding: 1.5rem 6.25rem;
     overflow: hidden;
     font-size: 1.45rem; }
 
-  /* line 99, ../components/sass/_layout.scss */
+  /* line 101, ../components/sass/_layout.scss */
   i {
     padding-right: 0.45rem; }
 
-  /* line 102, ../components/sass/_layout.scss */
+  /* line 104, ../components/sass/_layout.scss */
   ul {
     list-style: none; }
-    /* line 104, ../components/sass/_layout.scss */
+    /* line 106, ../components/sass/_layout.scss */
     ul a {
       display: block; }
-    /* line 107, ../components/sass/_layout.scss */
+    /* line 109, ../components/sass/_layout.scss */
     ul li {
       float: left;
       padding-right: 5rem;
       position: relative; }
-      /* line 111, ../components/sass/_layout.scss */
+      /* line 113, ../components/sass/_layout.scss */
       ul li .navtag {
         display: block;
         font-size: 1rem;
