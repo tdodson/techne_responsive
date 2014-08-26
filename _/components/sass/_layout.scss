@@ -57,9 +57,14 @@ and (max-width: $break_medium) {
 
 }
 
-
 @media screen 
 and (min-width: $break_medium +1)
+and (max-width: $break_large) {
+
+}
+
+@media screen 
+and (min-width: $break_large +1)
 and (max-width: $break_huge) {
 	section#banner {
 		width: 1290px;

@@ -56,6 +56,7 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
+/* menu breaks at smaller than 1090 */
 /* line 4, ../components/sass/_base.scss */
 body {
   font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -129,14 +130,14 @@ nav a {
   nav a .navtag {
     color: #333; }
 
-@media screen and (min-width: 761px) and (max-width: 1280px) {
-  /* line 64, ../components/sass/_layout.scss */
+@media screen and (min-width: 1091px) and (max-width: 1280px) {
+  /* line 69, ../components/sass/_layout.scss */
   section#banner {
     width: 1290px;
     height: 480px;
     background: url(../../images/working_1290_bw.jpg) no-repeat;
     position: relative; }
-    /* line 69, ../components/sass/_layout.scss */
+    /* line 74, ../components/sass/_layout.scss */
     section#banner #opacBlue {
       width: 33%;
       height: 480px;
@@ -144,38 +145,38 @@ nav a {
       position: absolute;
       top: 0;
       bottom: 0; }
-      /* line 76, ../components/sass/_layout.scss */
+      /* line 81, ../components/sass/_layout.scss */
       section#banner #opacBlue p {
         padding: 0.5rem 2rem;
         color: #FFF;
         font-size: 1.25rem;
         line-height: 125%; }
-        /* line 81, ../components/sass/_layout.scss */
+        /* line 86, ../components/sass/_layout.scss */
         section#banner #opacBlue p#first {
           padding-top: 45px; }
 
-  /* line 87, ../components/sass/_layout.scss */
+  /* line 92, ../components/sass/_layout.scss */
   nav {
     padding: 1.5rem 6.25rem;
     overflow: hidden;
     font-size: 1.45rem; }
 
-  /* line 92, ../components/sass/_layout.scss */
+  /* line 97, ../components/sass/_layout.scss */
   i {
     padding-right: 0.45rem; }
 
-  /* line 95, ../components/sass/_layout.scss */
+  /* line 100, ../components/sass/_layout.scss */
   ul {
     list-style: none; }
-    /* line 97, ../components/sass/_layout.scss */
+    /* line 102, ../components/sass/_layout.scss */
     ul a {
       display: block; }
-    /* line 100, ../components/sass/_layout.scss */
+    /* line 105, ../components/sass/_layout.scss */
     ul li {
       float: left;
       padding-right: 5rem;
       position: relative; }
-      /* line 104, ../components/sass/_layout.scss */
+      /* line 109, ../components/sass/_layout.scss */
       ul li .navtag {
         display: block;
         font-size: 1rem;
