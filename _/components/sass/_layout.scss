@@ -1,3 +1,28 @@
+// Global Styles
+body {
+	width: 100%;
+}
+header {
+	height: 105px;
+	background: url(../../images/triangles.png) repeat;
+}
+
+hgroup#logo {
+	h1 {
+		padding: 17px 0 0 100px;
+		float: left;
+	}
+	h2 {
+		float: left;
+		padding: 40px 0 0 35px;
+		color: #FFF;
+		font: $font-sans;
+		font-size: 2.25rem;
+	}
+}
+
+
+
 // Media Queries
 
 // phone or small device
@@ -12,20 +37,36 @@ and (max-width: $break_medium) {
 
 }
 
+
 @media screen 
 and (min-width: $break_medium +1)
-/* and (max-width: $break_large) */ {
-	section {
+and (max-width: $break_huge) {
+	section#banner {
 		width: 1290px;
 		height: 480px;
 		background: url(../../images/working_1290_bw.jpg) no-repeat;
+		position: relative;
+		#opacBlue {
+			width: 50%;
+			height: 480px;
+			background: $opacBlue;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			p {
+				padding: 0.5rem 4.25rem;
+				color: #FFF;
+				font-size: 1.25rem /* (26px / 16px) */;
+				line-height: 125%;
+				&#first {
+					padding-top: 125px;
+				}
+			}
+		}
 	}
 }
 
-body {
-	width: 100%;
-}
-header {
-	height: 105px;
-	background: url(../../images/triangles.png) repeat;
+@media screen 
+and (min-width: $break_huge +1) {
+
 }

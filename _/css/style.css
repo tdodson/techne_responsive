@@ -1,4 +1,4 @@
-@import url("http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic");
+@import url("http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic");
 @import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 /* line 5, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
@@ -58,19 +58,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 4, ../components/sass/_base.scss */
 body {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.2rem;
+  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
   line-height: 150%; }
 
 /* line 10, ../components/sass/_base.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 /* Link Styling */
 /* line 16, ../components/sass/_base.scss */
 a:link {
   text-decoration: none;
-  color: red; }
+  color: #1487d4; }
 /* line 20, ../components/sass/_base.scss */
 a:hover, a:active {
   text-decoration: underline; }
@@ -79,19 +79,50 @@ a:focus {
   outline: none; }
 /* line 26, ../components/sass/_base.scss */
 a:visited {
-  color: #e61919; }
+  color: #2b82bd; }
 
-@media screen and (min-width: 761px) {
-  /* line 18, ../components/sass/_layout.scss */
-  section {
-    width: 1290px;
-    height: 480px;
-    background: url(../../images/working_1290_bw.jpg) no-repeat; } }
-/* line 25, ../components/sass/_layout.scss */
+/* line 2, ../components/sass/_layout.scss */
 body {
   width: 100%; }
 
-/* line 28, ../components/sass/_layout.scss */
+/* line 5, ../components/sass/_layout.scss */
 header {
   height: 105px;
   background: url(../../images/triangles.png) repeat; }
+
+/* line 11, ../components/sass/_layout.scss */
+hgroup#logo h1 {
+  padding: 17px 0 0 100px;
+  float: left; }
+/* line 15, ../components/sass/_layout.scss */
+hgroup#logo h2 {
+  float: left;
+  padding: 40px 0 0 35px;
+  color: #FFF;
+  font: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2.25rem; }
+
+@media screen and (min-width: 761px) and (max-width: 1280px) {
+  /* line 44, ../components/sass/_layout.scss */
+  section#banner {
+    width: 1290px;
+    height: 480px;
+    background: url(../../images/working_1290_bw.jpg) no-repeat;
+    position: relative; }
+    /* line 49, ../components/sass/_layout.scss */
+    section#banner #opacBlue {
+      width: 50%;
+      height: 480px;
+      background: rgba(20, 135, 212, 0.8);
+      position: absolute;
+      top: 0;
+      bottom: 0; }
+      /* line 56, ../components/sass/_layout.scss */
+      section#banner #opacBlue p {
+        padding: 0.5rem 4.25rem;
+        color: #FFF;
+        font-size: 1.25rem;
+        line-height: 125%; }
+        /* line 61, ../components/sass/_layout.scss */
+        section#banner #opacBlue p#first {
+          padding-top: 125px; } }
