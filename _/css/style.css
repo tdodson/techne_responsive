@@ -302,14 +302,14 @@ nav a {
       bottom: 0; }
       /* line 226, ../components/sass/_layout.scss */
       section#banner #bannertext p {
-        padding: 0.5rem 2rem;
+        padding: 0.5rem 3rem;
         color: #FFF;
         font-size: 1.25rem;
         text-shadow: 1px 1px 1px #333;
         line-height: 125%; }
         /* line 232, ../components/sass/_layout.scss */
         section#banner #bannertext p#first {
-          padding-top: 45px; }
+          padding-top: 60px; }
 
   /* line 238, ../components/sass/_layout.scss */
   nav {
@@ -351,14 +351,14 @@ nav a {
       bottom: 0; }
       /* line 279, ../components/sass/_layout.scss */
       section#banner #bannertext p {
-        padding: 0.5rem 2rem;
+        padding: 0.5rem 3rem;
         color: #FFF;
         font-size: 1.25rem;
         text-shadow: 1px 1px 1px #333;
         line-height: 125%; }
         /* line 285, ../components/sass/_layout.scss */
         section#banner #bannertext p#first {
-          padding-top: 45px; }
+          padding-top: 60px; }
 
   /* line 291, ../components/sass/_layout.scss */
   nav {
@@ -378,3 +378,22 @@ nav a {
         font-size: 1rem;
         text-transform: lowercase;
         text-align: center; } }
+@media screen and (min-width: 1280px) {
+  /* line 315, ../components/sass/_layout.scss */
+  header {
+    width: 1680px; }
+
+  /* line 318, ../components/sass/_layout.scss */
+  section#banner {
+    width: 1680px;
+    height: 500px;
+    background: url(../../images/working_1680_bw.jpg) no-repeat; }
+    /* line 322, ../components/sass/_layout.scss */
+    section#banner #bannertext {
+      height: 500px; }
+      /* line 324, ../components/sass/_layout.scss */
+      section#banner #bannertext p {
+        padding: 0.5rem 5.3rem; }
+        /* line 326, ../components/sass/_layout.scss */
+        section#banner #bannertext p#first {
+          padding-top: 75px; } }

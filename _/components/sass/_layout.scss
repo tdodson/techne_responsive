@@ -224,13 +224,13 @@ and (max-width: $break_large) {
 			top: 0;
 			bottom: 0;
 			p {
-				padding: 0.5rem 2rem;
+				padding: 0.5rem 3rem;
 				color: #FFF;
 				font-size: 1.25rem /* (26px / 16px) */;
 				text-shadow: 1px 1px 1px #333;
 				line-height: 125%;
 				&#first {
-					padding-top: 45px;
+					padding-top: 60px;
 				}
 			}
 		}
@@ -277,13 +277,13 @@ and (min-width: $break_large +1) {
 			top: 0;
 			bottom: 0;
 			p {
-				padding: 0.5rem 2rem;
+				padding: 0.5rem 3rem;
 				color: #FFF;
 				font-size: 1.25rem /* (26px / 16px) */;
 				text-shadow: 1px 1px 1px #333;
 				line-height: 125%;
 				&#first {
-					padding-top: 45px;
+					padding-top: 60px;
 				}
 			}
 		}
@@ -312,5 +312,21 @@ and (min-width: $break_large +1) {
 
  @media screen 
 and (min-width: $break_huge) {
-
+	header {
+		width: 1680px;
+	}
+	section#banner {
+		width: 1680px;
+		height: 500px;
+		background: url(../../images/working_1680_bw.jpg) no-repeat;
+		#bannertext {
+			height: 500px;
+			p {
+				padding: 0.5rem 5.3rem;
+				&#first {
+					padding-top: 75px;
+				}
+			}		
+		}
+	}
 } 
