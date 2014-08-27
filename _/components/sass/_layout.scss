@@ -7,7 +7,7 @@ header {
 hgroup#logo {
 	width: 1280px;
 	h1 {
-		padding: 15px 0 0 95px;
+		padding: 15px 0 0 102px;
 		float: left;
 	}
 	h2 {
@@ -19,8 +19,19 @@ hgroup#logo {
 	}
 }
 
-nav { 
+h1#menu a {
+	display: none;
+}
+
+nav {
+	ul {
+		list-style: none;
+	li {
+		float: left;
+		}
+	}
 	a {
+		display: block;
 		text-transform: uppercase;
 		text-align: center;
 		border: none;
@@ -46,20 +57,209 @@ nav {
 
 // phone or small device
 @media screen 
-and (max-width: $break_small) {
+and (min-width: $break_micro)
+and (max-width: $break_tiny) {
+	header {
+		display: none;
+	}
+}
 
+
+@media screen 
+and (max-width: $break_small) {
+	header {
+		height: 87px;
+	}
+	hgroup#logo {
+		h1 {
+			padding: 15px 0 0 0;
+		}
+		h2 {
+			position: absolute;
+			top: 100px;
+			font-size: 1.25rem;
+			color: #333;
+			padding: 0 15px 0 15px;
+		}
+		img {
+			width: 220px;
+			height: 53px;
+		}
+	}
+	h1#menu a {
+		display: block;
+		float: right;
+		padding: 29px 15px 0 15px;
+		color: #FFF;
+		font-weight: normal;
+		font-family: $font-sans;
+		text-transform: uppercase;
+		text-shadow: 1px 1px 1px #FFF;
+		font-size: 0.8rem;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	#bannertext {
+				width: 90%;
+				position: absolute;
+				top: 115px;
+				padding: 20px 0;
+				p {
+					padding: 0.5rem 2rem;
+					color: #000;
+					font-size: 0.85rem;
+					line-height: 125%;
+				}
+		}
+	nav#mainmenu {
+		width: 90%;
+		position: relative;
+		font-size: 1.5rem;
+		i {
+			padding-right: 1rem;
+		}
+		ul {
+			width: 90%;
+			background: rgba(0, 0, 0, 0.3);
+			position: absolute;
+			top: 375px;
+			left: 30px;
+			border-left: 1px solid #333;
+			border-right: 1px solid #333;
+			li {
+			float: none;
+			padding: 0px 15px 0 0;
+			border-top: 1px solid #333;
+				&:last-child {
+					border-bottom: 1px solid #333;
+				}
+				a {
+					text-align: center;
+					padding: 25px;
+				}
+		}
+		}
+	}
 }
 
 @media screen 
 and (min-width: $break_small +1)
 and (max-width: $break_medium) {
-	
+	hgroup#logo h2 {
+		position: absolute;
+		top: 80px;
+		left: 66px;
+		font-size: 1.65rem;
+	}
+	h1#menu a {
+		display: block;
+		float: right;
+		padding: 10px 20px 0 0;
+		color: #FFF;
+		font-weight: normal;
+		font-family: $font-sans;
+		text-transform: uppercase;
+		text-shadow: 1px 1px 1px #FFF;
+		font-size: 1rem;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	section#banner {
+		width: 760px;
+		height: 283px;
+		background: url(../../images/working_760_bw.jpg) no-repeat;
+		#bannertext {
+				width: 75%;
+				position: absolute;
+				top: 400px;
+				padding: 20px 66px;
+				p {
+					padding: 0.5rem 2rem;
+					color: #000;
+					font-size: 0.9rem;
+					line-height: 125%;
+				}
+		}
+	}
+	nav {
+		padding: 245px 2rem 0 5.5rem;
+		font-size: 1.25rem;
+		position: relative;
+		i {
+		font-size: 1.5rem;
+		position: absolute;
+		left: 1.5rem;
+		top: 1.75rem;
+			&.fa-cube {
+				left: 0.75rem;
+			}
+			&.fa-briefcase {
+				left: 1.25em;
+			}
+		}
+		ul {
+			li {
+				padding-right: 1.65rem;
+				position: relative;
+			}
+		}
+	}
 }
 
 @media screen 
 and (min-width: $break_medium +1)
 and (max-width: $break_large) {
-	
+	header {
+		width: 100%;
+	}
+	section#banner {
+		width: 1280px;
+		height: 480px;
+		background: url(../../images/working_1280_bw.jpg) no-repeat;
+		position: relative;
+		overflow: hidden;
+		#bannertext {
+			width: 33%;
+			height: 480px;
+			background: $opacBlue;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			p {
+				padding: 0.5rem 2rem;
+				color: #FFF;
+				font-size: 1.25rem /* (26px / 16px) */;
+				text-shadow: 1px 1px 1px #333;
+				line-height: 125%;
+				&#first {
+					padding-top: 45px;
+				}
+			}
+		}
+	}
+	nav {
+		padding: 1.5rem 4.25rem;
+		overflow: hidden;
+		font-size: 1.2rem;
+		i {
+		padding-right: 0.35rem;
+		}
+		ul {
+			li {
+				padding-right: 1.45rem;
+				position: relative;
+				.navtag {
+					display: block;
+					font-size: 0.9rem;
+					text-transform: lowercase;
+					text-align: center;
+				}
+			}
+		}
+	}
+
 }
 
 @media screen 
@@ -74,7 +274,7 @@ and (max-width: $break_huge) {
 		background: url(../../images/working_1280_bw.jpg) no-repeat;
 		position: relative;
 		overflow: hidden;
-		#opacBlue {
+		#bannertext {
 			width: 33%;
 			height: 480px;
 			background: $opacBlue;
@@ -97,30 +297,25 @@ and (max-width: $break_huge) {
 		padding: 1.5rem 6.25rem;
 		overflow: hidden;
 		font-size: 1.45rem;
-	}
-	i {
+		i {
 		padding-right: 0.45rem;
-	}
-	ul {
-		list-style: none;
-		a {
-			display: block;
 		}
-		li {
-			float: left;
-			padding-right: 5rem;
-			position: relative;
-			.navtag {
-				display: block;
-				font-size: 1rem;
-				text-transform: lowercase;
-				text-align: center;
+		ul {
+			li {
+				padding-right: 5rem;
+				position: relative;
+				.navtag {
+					display: block;
+					font-size: 1rem;
+					text-transform: lowercase;
+					text-align: center;
 			}
 		}
+		}
 	}
 }
 
-@media screen 
+ @media screen 
 and (min-width: $break_huge +1) {
 
-}
+} 
