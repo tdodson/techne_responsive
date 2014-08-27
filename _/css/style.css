@@ -143,31 +143,27 @@ nav a {
     /* Tags only display in larger sizes */
     color: #333; }
 
-@media screen and (min-width: 290px) and (max-width: 450px) {
-  /* line 62, ../components/sass/_layout.scss */
-  header {
-    display: none; } }
 @media screen and (max-width: 560px) {
-  /* line 70, ../components/sass/_layout.scss */
+  /* line 68, ../components/sass/_layout.scss */
   header {
     height: 87px; }
 
-  /* line 74, ../components/sass/_layout.scss */
+  /* line 72, ../components/sass/_layout.scss */
   hgroup#logo h1 {
     padding: 15px 0 0 0; }
-  /* line 77, ../components/sass/_layout.scss */
+  /* line 75, ../components/sass/_layout.scss */
   hgroup#logo h2 {
     position: absolute;
     top: 100px;
     font-size: 1.25rem;
     color: #333;
     padding: 0 15px 0 15px; }
-  /* line 84, ../components/sass/_layout.scss */
+  /* line 82, ../components/sass/_layout.scss */
   hgroup#logo img {
     width: 220px;
     height: 53px; }
 
-  /* line 89, ../components/sass/_layout.scss */
+  /* line 87, ../components/sass/_layout.scss */
   h1#menu a {
     display: block;
     float: right;
@@ -178,32 +174,30 @@ nav a {
     text-transform: uppercase;
     text-shadow: 1px 1px 1px #FFF;
     font-size: 0.8rem; }
-    /* line 99, ../components/sass/_layout.scss */
+    /* line 97, ../components/sass/_layout.scss */
     h1#menu a:hover {
       text-decoration: none; }
 
-  /* line 103, ../components/sass/_layout.scss */
+  /* line 101, ../components/sass/_layout.scss */
   #bannertext {
     width: 90%;
-    position: absolute;
-    top: 115px;
-    padding: 20px 0; }
-    /* line 108, ../components/sass/_layout.scss */
+    padding: 40px 0; }
+    /* line 104, ../components/sass/_layout.scss */
     #bannertext p {
       padding: 0.5rem 2rem;
       color: #000;
       font-size: 0.85rem;
       line-height: 125%; }
 
-  /* line 115, ../components/sass/_layout.scss */
+  /* line 111, ../components/sass/_layout.scss */
   nav#mainmenu {
     width: 90%;
     position: relative;
     font-size: 1.5rem; }
-    /* line 119, ../components/sass/_layout.scss */
+    /* line 115, ../components/sass/_layout.scss */
     nav#mainmenu i {
       padding-right: 1rem; }
-    /* line 122, ../components/sass/_layout.scss */
+    /* line 118, ../components/sass/_layout.scss */
     nav#mainmenu ul {
       width: 90%;
       background: rgba(0, 0, 0, 0.3);
@@ -212,27 +206,27 @@ nav a {
       left: 30px;
       border-left: 1px solid #333;
       border-right: 1px solid #333; }
-      /* line 130, ../components/sass/_layout.scss */
+      /* line 126, ../components/sass/_layout.scss */
       nav#mainmenu ul li {
         float: none;
         padding: 0px 15px 0 0;
         border-top: 1px solid #333; }
-        /* line 134, ../components/sass/_layout.scss */
+        /* line 130, ../components/sass/_layout.scss */
         nav#mainmenu ul li:last-child {
           border-bottom: 1px solid #333; }
-        /* line 137, ../components/sass/_layout.scss */
+        /* line 133, ../components/sass/_layout.scss */
         nav#mainmenu ul li a {
           text-align: center;
           padding: 25px; } }
 @media screen and (min-width: 561px) and (max-width: 685px) {
-  /* line 149, ../components/sass/_layout.scss */
+  /* line 145, ../components/sass/_layout.scss */
   hgroup#logo h2 {
     position: absolute;
     top: 80px;
     left: 66px;
     font-size: 1.65rem; }
 
-  /* line 155, ../components/sass/_layout.scss */
+  /* line 151, ../components/sass/_layout.scss */
   h1#menu a {
     display: block;
     float: right;
@@ -243,62 +237,62 @@ nav a {
     text-transform: uppercase;
     text-shadow: 1px 1px 1px #FFF;
     font-size: 1rem; }
-    /* line 165, ../components/sass/_layout.scss */
+    /* line 161, ../components/sass/_layout.scss */
     h1#menu a:hover {
       text-decoration: none; }
 
-  /* line 169, ../components/sass/_layout.scss */
+  /* line 165, ../components/sass/_layout.scss */
   section#banner {
     width: 760px;
     height: 283px;
     background: url(../../images/working_760_bw.jpg) no-repeat; }
-    /* line 173, ../components/sass/_layout.scss */
+    /* line 169, ../components/sass/_layout.scss */
     section#banner #bannertext {
       width: 75%;
       position: absolute;
       top: 400px;
       padding: 20px 66px; }
-      /* line 178, ../components/sass/_layout.scss */
+      /* line 174, ../components/sass/_layout.scss */
       section#banner #bannertext p {
         padding: 0.5rem 2rem;
         color: #000;
         font-size: 0.9rem;
         line-height: 125%; }
 
-  /* line 186, ../components/sass/_layout.scss */
+  /* line 182, ../components/sass/_layout.scss */
   nav {
     padding: 245px 2rem 0 5.5rem;
     font-size: 1.25rem;
     position: relative; }
-    /* line 190, ../components/sass/_layout.scss */
+    /* line 186, ../components/sass/_layout.scss */
     nav i {
       font-size: 1.5rem;
       position: absolute;
       left: 1.5rem;
       top: 1.75rem; }
-      /* line 195, ../components/sass/_layout.scss */
+      /* line 191, ../components/sass/_layout.scss */
       nav i.fa-cube {
         left: 0.75rem; }
-      /* line 198, ../components/sass/_layout.scss */
+      /* line 194, ../components/sass/_layout.scss */
       nav i.fa-briefcase {
         left: 1.25em; }
-    /* line 203, ../components/sass/_layout.scss */
+    /* line 199, ../components/sass/_layout.scss */
     nav ul li {
       padding-right: 1.65rem;
       position: relative; } }
 @media screen and (min-width: 686px) and (max-width: 1090px) {
-  /* line 214, ../components/sass/_layout.scss */
+  /* line 210, ../components/sass/_layout.scss */
   header {
     width: 100%; }
 
-  /* line 217, ../components/sass/_layout.scss */
+  /* line 213, ../components/sass/_layout.scss */
   section#banner {
     width: 1280px;
     height: 480px;
     background: url(../../images/working_1280_bw.jpg) no-repeat;
     position: relative;
     overflow: hidden; }
-    /* line 223, ../components/sass/_layout.scss */
+    /* line 219, ../components/sass/_layout.scss */
     section#banner #bannertext {
       width: 33%;
       height: 480px;
@@ -306,48 +300,48 @@ nav a {
       position: absolute;
       top: 0;
       bottom: 0; }
-      /* line 230, ../components/sass/_layout.scss */
+      /* line 226, ../components/sass/_layout.scss */
       section#banner #bannertext p {
         padding: 0.5rem 2rem;
         color: #FFF;
         font-size: 1.25rem;
         text-shadow: 1px 1px 1px #333;
         line-height: 125%; }
-        /* line 236, ../components/sass/_layout.scss */
+        /* line 232, ../components/sass/_layout.scss */
         section#banner #bannertext p#first {
           padding-top: 45px; }
 
-  /* line 242, ../components/sass/_layout.scss */
+  /* line 238, ../components/sass/_layout.scss */
   nav {
     padding: 1.5rem 4.25rem;
     overflow: hidden;
     font-size: 1.2rem; }
-    /* line 246, ../components/sass/_layout.scss */
+    /* line 242, ../components/sass/_layout.scss */
     nav i {
       padding-right: 0.35rem; }
-    /* line 250, ../components/sass/_layout.scss */
+    /* line 246, ../components/sass/_layout.scss */
     nav ul li {
       padding-right: 1.45rem;
       position: relative; }
-      /* line 253, ../components/sass/_layout.scss */
+      /* line 249, ../components/sass/_layout.scss */
       nav ul li .navtag {
         display: block;
         font-size: 0.9rem;
         text-transform: lowercase;
         text-align: center; } }
 @media screen and (min-width: 1091px) and (max-width: 1280px) {
-  /* line 268, ../components/sass/_layout.scss */
+  /* line 264, ../components/sass/_layout.scss */
   header {
     width: 1280px; }
 
-  /* line 271, ../components/sass/_layout.scss */
+  /* line 267, ../components/sass/_layout.scss */
   section#banner {
     width: 1280px;
     height: 480px;
     background: url(../../images/working_1280_bw.jpg) no-repeat;
     position: relative;
     overflow: hidden; }
-    /* line 277, ../components/sass/_layout.scss */
+    /* line 273, ../components/sass/_layout.scss */
     section#banner #bannertext {
       width: 33%;
       height: 480px;
@@ -355,30 +349,30 @@ nav a {
       position: absolute;
       top: 0;
       bottom: 0; }
-      /* line 284, ../components/sass/_layout.scss */
+      /* line 280, ../components/sass/_layout.scss */
       section#banner #bannertext p {
         padding: 0.5rem 2rem;
         color: #FFF;
         font-size: 1.25rem;
         text-shadow: 1px 1px 1px #333;
         line-height: 125%; }
-        /* line 290, ../components/sass/_layout.scss */
+        /* line 286, ../components/sass/_layout.scss */
         section#banner #bannertext p#first {
           padding-top: 45px; }
 
-  /* line 296, ../components/sass/_layout.scss */
+  /* line 292, ../components/sass/_layout.scss */
   nav {
     padding: 1.5rem 6.25rem;
     overflow: hidden;
     font-size: 1.45rem; }
-    /* line 300, ../components/sass/_layout.scss */
+    /* line 296, ../components/sass/_layout.scss */
     nav i {
       padding-right: 0.45rem; }
-    /* line 304, ../components/sass/_layout.scss */
+    /* line 300, ../components/sass/_layout.scss */
     nav ul li {
       padding-right: 5rem;
       position: relative; }
-      /* line 307, ../components/sass/_layout.scss */
+      /* line 303, ../components/sass/_layout.scss */
       nav ul li .navtag {
         display: block;
         font-size: 1rem;

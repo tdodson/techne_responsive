@@ -59,9 +59,7 @@ nav {
 @media screen 
 and (min-width: $break_micro)
 and (max-width: $break_tiny) {
-	header {
-		display: none;
-	}
+	
 }
 
 
@@ -102,9 +100,7 @@ and (max-width: $break_small) {
 	}
 	#bannertext {
 				width: 90%;
-				position: absolute;
-				top: 115px;
-				padding: 20px 0;
+				padding: 40px 0;
 				p {
 					padding: 0.5rem 2rem;
 					color: #000;
