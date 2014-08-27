@@ -329,19 +329,19 @@ nav a {
         font-size: 0.9rem;
         text-transform: lowercase;
         text-align: center; } }
-@media screen and (min-width: 1091px) and (max-width: 1280px) {
-  /* line 264, ../components/sass/_layout.scss */
+@media screen and (min-width: 1091px) {
+  /* line 263, ../components/sass/_layout.scss */
   header {
     width: 1280px; }
 
-  /* line 267, ../components/sass/_layout.scss */
+  /* line 266, ../components/sass/_layout.scss */
   section#banner {
     width: 1280px;
     height: 480px;
     background: url(../../images/working_1280_bw.jpg) no-repeat;
     position: relative;
     overflow: hidden; }
-    /* line 273, ../components/sass/_layout.scss */
+    /* line 272, ../components/sass/_layout.scss */
     section#banner #bannertext {
       width: 33%;
       height: 480px;
@@ -349,30 +349,30 @@ nav a {
       position: absolute;
       top: 0;
       bottom: 0; }
-      /* line 280, ../components/sass/_layout.scss */
+      /* line 279, ../components/sass/_layout.scss */
       section#banner #bannertext p {
         padding: 0.5rem 2rem;
         color: #FFF;
         font-size: 1.25rem;
         text-shadow: 1px 1px 1px #333;
         line-height: 125%; }
-        /* line 286, ../components/sass/_layout.scss */
+        /* line 285, ../components/sass/_layout.scss */
         section#banner #bannertext p#first {
           padding-top: 45px; }
 
-  /* line 292, ../components/sass/_layout.scss */
+  /* line 291, ../components/sass/_layout.scss */
   nav {
     padding: 1.5rem 6.25rem;
     overflow: hidden;
     font-size: 1.45rem; }
-    /* line 296, ../components/sass/_layout.scss */
+    /* line 295, ../components/sass/_layout.scss */
     nav i {
       padding-right: 0.45rem; }
-    /* line 300, ../components/sass/_layout.scss */
+    /* line 299, ../components/sass/_layout.scss */
     nav ul li {
       padding-right: 5rem;
       position: relative; }
-      /* line 303, ../components/sass/_layout.scss */
+      /* line 302, ../components/sass/_layout.scss */
       nav ul li .navtag {
         display: block;
         font-size: 1rem;

@@ -59,7 +59,7 @@ nav {
 @media screen 
 and (min-width: $break_micro)
 and (max-width: $break_tiny) {
-	
+
 }
 
 
@@ -259,8 +259,7 @@ and (max-width: $break_large) {
 }
 
 @media screen 
-and (min-width: $break_large +1)
-and (max-width: $break_huge) {
+and (min-width: $break_large +1) {
 	header {
 		width: 1280px;
 	}
@@ -312,6 +311,6 @@ and (max-width: $break_huge) {
 }
 
  @media screen 
-and (min-width: $break_huge +1) {
+and (min-width: $break_huge) {
 
 } 
