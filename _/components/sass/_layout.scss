@@ -1,4 +1,8 @@
 // Global Styles
+strong {
+	font-weight: 700;
+}
+
 header {
 	height: 105px;
 	background: url(../../images/triangles.png) repeat;
@@ -20,10 +24,54 @@ hgroup#logo {
 }
 
 h1#menu a {
+		display: block;
+		padding-top: 30px;
+		float: right;
+		color: #FFF;
+		font-weight: normal;
+		font-family: $font-sans;
+		text-transform: uppercase;
+		text-shadow: 1px 1px 1px #FFF;
+		font-size: 0.8rem;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+section#latest {
+	float: left;
+	padding: 40px 25px;
+	h1 {
+		font-size: 1.3rem;
+		font-weight: 700;
+		color: #333;
+		border-bottom: 2px solid $baseBlue;
+	}
+	h2.icon {
+		float: right;
+		margin-top: -1.3em;
+		font-size: 1.7rem;
+		color: #333;
+	}
+	h3 {
+		font-weight: 700;
+		padding-top: 1.3em;
+	}
+	p {
+		padding-bottom: 3rem;
+	}
+
+}
+
+aside.sidebar {
+	float: right;
+	padding: 30px 0;
 	display: none;
+
 }
 
 nav {
+	clear: both;
 	ul {
 		list-style: none;
 	li {
@@ -127,20 +175,12 @@ and (max-width: $break_small) {
 			height: 53px;
 		}
 	}
+	
 	h1#menu a {
-		display: block;
-		float: right;
-		padding: 29px 15px 0 15px;
-		color: #FFF;
-		font-weight: normal;
-		font-family: $font-sans;
-		text-transform: uppercase;
-		text-shadow: 1px 1px 1px #FFF;
-		font-size: 0.8rem;
-		&:hover {
-			text-decoration: none;
-		}
+		padding: 30px 20px 0 0;
+		font-size: 1rem;
 	}
+
 	#bannertext {
 				width: 90%;
 				padding: 40px 0;
@@ -204,18 +244,8 @@ and (max-width: $break_medium) {
 		font-size: 1.65rem;
 	}
 	h1#menu a {
-		display: block;
-		float: right;
-		padding: 10px 20px 0 0;
-		color: #FFF;
-		font-weight: normal;
-		font-family: $font-sans;
-		text-transform: uppercase;
-		text-shadow: 1px 1px 1px #FFF;
+		padding: 30px 20px 0 0;
 		font-size: 1rem;
-		&:hover {
-			text-decoration: none;
-		}
 	}
 	section#banner {
 		width: 760px;
@@ -268,6 +298,13 @@ and (max-width: $break_large) {
 	header {
 		width: 100%;
 	}
+	h1#menu a {
+		padding: 0;
+		position: absolute;
+		top: 43px;
+		left: 910px;
+		font-size: 1rem;
+	}
 	section#banner {
 		width: 1280px;
 		height: 480px;
@@ -293,6 +330,15 @@ and (max-width: $break_large) {
 			}
 		}
 	}
+	section#latest {
+		width: 70%;
+	}
+	aside.sidebar {
+		display: block;
+		float: right;
+		width: 20%;
+	}
+
 	nav {
 		padding: 1.5rem 4.25rem;
 		overflow: hidden;
@@ -322,7 +368,7 @@ and (max-width: $break_large) {
 			font-size: 1.5rem;
 			left: 385px;
 		}
-}
+	}
 
 }
 
@@ -330,6 +376,13 @@ and (max-width: $break_large) {
 and (min-width: $break_large +1) {
 	header {
 		width: 1280px;
+	}
+	h1#menu a {
+		position: absolute;
+		padding: 0;
+		top: 43px;
+		left: 950px;
+		font-size: 1rem;
 	}
 	section#banner {
 		width: 1280px;
@@ -356,6 +409,17 @@ and (min-width: $break_large +1) {
 			}
 		}
 	}
+	
+	section#latest {
+		width: 70%;
+	}
+
+	aside.sidebar {
+		display: block;
+		float: right;
+		width: 20%;
+	}
+
 	nav {
 		padding: 1.5rem 6.25rem;
 		overflow: hidden;
@@ -395,6 +459,13 @@ and (min-width: $break_large +1) {
 and (min-width: $break_huge) {
 	header {
 		width: 1680px;
+	}
+	h1#menu a {
+		position: absolute;
+		padding: 0;
+		top: 43px;
+		left: 950px;
+		font-size: 1rem;
 	}
 	section#banner {
 		width: 1680px;
