@@ -390,21 +390,25 @@ footer {
         text-align: center; }
 
   /* line 318, ../components/sass/_layout.scss */
+  footer i.fa-search {
+    padding: 25px 0.5rem 0 4.25rem; }
+  /* line 321, ../components/sass/_layout.scss */
   footer ul.social-bookmarks {
-    font-size: 1.5rem; } }
+    font-size: 1.5rem;
+    left: 385px; } }
 @media screen and (min-width: 1091px) {
-  /* line 327, ../components/sass/_layout.scss */
+  /* line 331, ../components/sass/_layout.scss */
   header {
     width: 1280px; }
 
-  /* line 330, ../components/sass/_layout.scss */
+  /* line 334, ../components/sass/_layout.scss */
   section#banner {
     width: 1280px;
     height: 480px;
     background: url(../../images/working_1280_bw.jpg) no-repeat;
     position: relative;
     overflow: hidden; }
-    /* line 336, ../components/sass/_layout.scss */
+    /* line 340, ../components/sass/_layout.scss */
     section#banner #bannertext {
       width: 33%;
       height: 480px;
@@ -412,63 +416,63 @@ footer {
       position: absolute;
       top: 0;
       bottom: 0; }
-      /* line 343, ../components/sass/_layout.scss */
+      /* line 347, ../components/sass/_layout.scss */
       section#banner #bannertext p {
         padding: 0.5rem 3rem;
         color: #FFF;
         font-size: 1.25rem;
         text-shadow: 1px 1px 1px #333;
         line-height: 125%; }
-        /* line 349, ../components/sass/_layout.scss */
+        /* line 353, ../components/sass/_layout.scss */
         section#banner #bannertext p#first {
           padding-top: 60px; }
 
-  /* line 355, ../components/sass/_layout.scss */
+  /* line 359, ../components/sass/_layout.scss */
   nav {
     padding: 1.5rem 6.25rem;
     overflow: hidden;
     font-size: 1.45rem; }
-    /* line 359, ../components/sass/_layout.scss */
+    /* line 363, ../components/sass/_layout.scss */
     nav i {
       padding-right: 0.45rem; }
-    /* line 363, ../components/sass/_layout.scss */
+    /* line 367, ../components/sass/_layout.scss */
     nav ul li {
       padding-right: 5rem;
       position: relative; }
-      /* line 366, ../components/sass/_layout.scss */
+      /* line 370, ../components/sass/_layout.scss */
       nav ul li .navtag {
         display: block;
         font-size: 1rem;
         text-transform: lowercase;
         text-align: center; }
 
-  /* line 376, ../components/sass/_layout.scss */
+  /* line 380, ../components/sass/_layout.scss */
   footer i.fa-search {
     padding: 25px 0.5rem 0 6.25rem; }
-  /* line 379, ../components/sass/_layout.scss */
+  /* line 383, ../components/sass/_layout.scss */
   footer ul.social-bookmarks {
     font-size: 1.8rem;
     padding: 22px 0 0 0;
     left: 425px; }
-  /* line 384, ../components/sass/_layout.scss */
+  /* line 388, ../components/sass/_layout.scss */
   footer li {
     padding-right: 1.8rem; } }
 @media screen and (min-width: 1280px) {
-  /* line 392, ../components/sass/_layout.scss */
+  /* line 396, ../components/sass/_layout.scss */
   header {
     width: 1680px; }
 
-  /* line 395, ../components/sass/_layout.scss */
+  /* line 399, ../components/sass/_layout.scss */
   section#banner {
     width: 1680px;
     height: 500px;
     background: url(../../images/working_1680_bw.jpg) no-repeat; }
-    /* line 399, ../components/sass/_layout.scss */
+    /* line 403, ../components/sass/_layout.scss */
     section#banner #bannertext {
       height: 500px; }
-      /* line 401, ../components/sass/_layout.scss */
+      /* line 405, ../components/sass/_layout.scss */
       section#banner #bannertext p {
         padding: 0.5rem 5.3rem; }
-        /* line 403, ../components/sass/_layout.scss */
+        /* line 407, ../components/sass/_layout.scss */
         section#banner #bannertext p#first {
           padding-top: 75px; } }

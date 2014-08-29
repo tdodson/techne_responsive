@@ -315,8 +315,12 @@ and (max-width: $break_large) {
 	}
 
 	footer {
+		i.fa-search {
+			padding: 25px 0.5rem 0 4.25rem;
+		}
 		ul.social-bookmarks {
 			font-size: 1.5rem;
+			left: 385px;
 		}
 }
 
