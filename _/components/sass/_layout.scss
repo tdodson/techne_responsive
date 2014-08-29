@@ -53,7 +53,50 @@ nav {
 	
 }
 
-// Media Queries
+footer {
+	height: 75px;
+	width: 100%;
+	background: url(../../images/triangles.png) repeat;
+	i.fa-search {
+		padding: 25px 0.5rem 0 3rem;
+		float: left;
+		font-size: 1.25rem;
+		color: #FFF;
+	}
+	input {
+		float: left;
+		&[name="searchbox"] {
+			margin-top: 25px;
+			width: 150px;
+			height: 23px;
+			border: none;
+			border-radius: 50px;	
+		}
+		&[name="submit"] {
+			margin: 25px 0 0 0.5rem;
+			padding: 0 10px;
+			height: 23px;
+			background: $baseBlue;
+			color: #FFF;
+			font-size: 0.75rem;
+			border: none;
+			border-radius: 50px;
+		}
+	}
+
+	ul.social-bookmarks {
+		position: absolute;
+		left: 360px;
+		padding: 25px 0 0 0;
+		font-size: 1.5rem;
+		li {
+			float: left;
+			padding-right: 1.5rem;
+		}
+	}
+}
+
+// ----------------------- Media Queries ---------------------
 
 // phone or small device
 @media screen 
@@ -137,6 +180,18 @@ and (max-width: $break_small) {
 		}
 		}
 	}
+	footer {
+		height: 115px;
+		i.fa-search {
+			float: none;
+		}
+		input {
+			float: none;
+		}
+		ul.social-bookmarks {
+			left: 50px;
+		}
+	}
 }
 
 @media screen 
@@ -180,7 +235,7 @@ and (max-width: $break_medium) {
 		}
 	}
 	nav {
-		padding: 245px 2rem 0 5.5rem;
+		padding: 245px 2rem 75px 5.5rem;
 		font-size: 1.25rem;
 		position: relative;
 		i {
@@ -188,11 +243,11 @@ and (max-width: $break_medium) {
 		position: absolute;
 		left: 1.5rem;
 		top: 1.75rem;
-			&.fa-cube {
+			&.fa-paragraph {
 				left: 0.75rem;
 			}
 			&.fa-briefcase {
-				left: 1.25em;
+				left: 1.7em;
 			}
 		}
 		ul {
@@ -201,6 +256,9 @@ and (max-width: $break_medium) {
 				position: relative;
 			}
 		}
+	}
+	footer {
+		height: 150px;
 	}
 }
 
@@ -256,6 +314,12 @@ and (max-width: $break_large) {
 		}
 	}
 
+	footer {
+		ul.social-bookmarks {
+			font-size: 1.5rem;
+		}
+}
+
 }
 
 @media screen 
@@ -306,6 +370,19 @@ and (min-width: $break_large +1) {
 					text-align: center;
 			}
 		}
+		}
+	}
+	footer {
+		i.fa-search {
+		padding: 25px 0.5rem 0 6.25rem;
+		}
+		ul.social-bookmarks {
+			font-size: 1.8rem;
+			padding: 22px 0 0 0;
+			left: 425px;
+		}
+		li {
+			padding-right: 1.8rem;
 		}
 	}
 }
