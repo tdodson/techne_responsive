@@ -252,10 +252,9 @@ and (max-width: $break_medium) {
 		height: 283px;
 		background: url(../../images/working_760_bw.jpg) no-repeat;
 		#bannertext {
-				width: 75%;
-				position: absolute;
-				top: 400px;
-				padding: 20px 66px;
+				float: left;
+				width: 65%;
+				padding: 315px 56px 20px 66px;
 				p {
 					padding: 0.5rem 2rem;
 					color: #000;
